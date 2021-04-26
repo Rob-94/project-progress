@@ -23,7 +23,6 @@ function fib(number){
         second = thrd;
         thrd = 0;
     }
-        return result;
 console.log(result);
 };
 /* multiplication table  */
