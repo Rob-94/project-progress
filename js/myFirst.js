@@ -16,7 +16,7 @@ function fib(number){
     } else if (number === undefined){
               return `please enter the number`
     }
-    for (i = 2; i <= number-1; i++){
+    for (i = 2; i < number; i++){
         thrd = (first + second);
         result.push(thrd);
         first = second;
