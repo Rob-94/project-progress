@@ -1,0 +1,14 @@
+.box1 { 
+    margin:auto;
+    background: #f0f0f0;
+    width: 110px; 
+    padding: 10px; 
+    border: 2px solid #000; 
+   }
+.clear{background-color: rgb(227, 119, 140);
+}
+.keys{
+    block-size: 25px;
+}
+.rr{  height: 50px; 
+    width: 50px;}
