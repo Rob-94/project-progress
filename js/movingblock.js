@@ -1,10 +1,10 @@
-/*let box = document.querySelector('.box')
+let box = document.querySelector('.box')
 let boxLeft = box.offsetLeft
 let boxTop = box.offsetTop
 let step = 10
 document.addEventListener("keydown",myfunction);
 function myfunction(event){
-     switch(event.keyCode){
+     switch(event.keyCode||event.which){
         case 38:
             boxTop -= step
             box.style.top = boxTop + 'px'
@@ -22,6 +22,6 @@ function myfunction(event){
             box.style.left = boxLeft + 'px'
             break
     }
-});
+};
 
 
