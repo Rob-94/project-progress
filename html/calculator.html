@@ -11,28 +11,22 @@
 </head>
 <body>
     <div class="box1">
-        <div id="keyrow0">
+        <div >
             <button onclick="document.getElementById('ans').value=''" type="button" class="clear" value="C">C</button>  <input type="text"class='display' id="ans" value="" size="9" disabled> 
         </div>
-        <div id="keyRow1" class="keys">
+        <div class="keys">
             <button onclick="document.getElementById('ans').value+=7" type="button" value='7'>7</button>
             <button onclick="document.getElementById('ans').value+=8"  type="button" temp=8>8</button>
             <button onclick="document.getElementById('ans').value+=9"  type="button" value="9">9</button>
             <button onclick="document.getElementById('ans').value+='+'"  type="button" value="+">+</button>
-        </div>
-        <div id="keyRow2" class="keys">
             <button onclick="document.getElementById('ans').value+=4"  type="button" value="4">4</button>
             <button onclick="document.getElementById('ans').value+=5"  type="button" value="5">5</button>
             <button onclick="document.getElementById('ans').value+=6"  type="button" value="6">6</button>
             <button onclick="document.getElementById('ans').value+='-'"  type="button" value="-">-</button>
-        </div>
-        <div id="keyRow3" class="keys">
             <button onclick="document.getElementById('ans').value+=1"  type="button" value="1">1</button>
             <button onclick="document.getElementById('ans').value+=2"  type="button" value="2">2</button>
             <button onclick="document.getElementById('ans').value+=3"  type="button" value="3">3</button>
             <button onclick="document.getElementById('ans').value+='/'"  type="button" value="÷">÷</button>
-        </div>
-        <div id="keyRow4" class="keys">
             <button onclick="document.getElementById('ans').value+=0"     type="button" value="0">0</button>
             <button onclick="document.getElementById('ans').value+='.'"   type="button" value=".">.</button>
             <button onclick="result=document.getElementById('ans').value; document.getElementById('ans').value =eval(result)" type="button" value="=">=</button>
